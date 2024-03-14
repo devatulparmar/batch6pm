@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         canvasColor: Colors.brown,
         primarySwatch: Colors.yellow,
+        accentColor: Colors.pink,
       ),
       home: const March12Test(),
     );
