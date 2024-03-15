@@ -1,4 +1,5 @@
 import 'package:batch6pm/march12/test.dart';
+import 'package:batch6pm/video_play/video_player_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,11 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        canvasColor: Colors.brown,
-        primarySwatch: Colors.yellow,
-        accentColor: Colors.pink,
+        primarySwatch: Colors.blue,
       ),
-      home: const March12Test(),
+      home: const VideoPlayerScreen(),
     );
   }
 }
