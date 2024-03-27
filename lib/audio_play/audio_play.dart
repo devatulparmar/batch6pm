@@ -26,8 +26,8 @@ class _HelloState extends State<Hello> {
 
     // Start the player as soon as the app is displayed.
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      await player.setSource(UrlSource('https://file-examples.com/storage/fe7c2cbe4b65fa8179825d1/2017/11/file_example_MP3_700KB.mp3'));
-      // await player.setSource(AssetSource('audio/sample.mp3'));
+      // await player.setSource(UrlSource('https://music.youtube.com/watch?v=kO1gvHp52l0&si=G-E4TQ4Ts5ir-wMi'));
+      await player.setSource(AssetSource('audio/sample.mp3'));
       await player.resume();
     });
   }
