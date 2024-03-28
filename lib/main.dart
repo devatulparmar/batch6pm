@@ -1,3 +1,4 @@
+import 'package:batch5pm/amazon/home.dart';
 import 'package:batch5pm/audio_play/audio_play.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const Hello(),
+      home: const AmazonHome(),
     );
   }
 }
