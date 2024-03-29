@@ -78,6 +78,13 @@ class _AmazonHomeState extends State<AmazonHome> {
               ],
             ),
           ),
+          floatingActionButton: FloatingActionButton(
+            onPressed: (){},
+            child: const Icon(
+              Icons.add
+            ),
+          ),
+          floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         ),
 
         /// Notifications page
